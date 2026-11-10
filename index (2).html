@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#16324F">
+<meta name="description" content="2026大学生投资知识挑战赛——用8分钟挑战20道投资常识题，建立风险意识。">
+<title>2026 大学生投资知识挑战赛｜THS Futures Lab</title>
+<style>
+:root{--navy:#16324F;--teal:#2A9D8F;--orange:#F4A261;--ink:#172B3A;--muted:#657786;--paper:#F5F8FA;--line:#E3EAF0;--white:#fff;--shadow:0 18px 50px rgba(22,50,79,.10)}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:82px}body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;color:var(--ink);background:#fff;line-height:1.65}a{color:inherit;text-decoration:none}button,input{font:inherit}.wrap{width:min(1120px,calc(100% - 40px));margin:auto}.nav{height:72px;display:flex;align-items:center;justify-content:space-between;gap:20px;background:#fff;position:sticky;top:0;z-index:20;border-bottom:1px solid rgba(227,234,240,.8)}.brand{display:flex;align-items:center;gap:10px;font-weight:800;color:var(--navy);letter-spacing:.2px}.brand-mark{width:34px;height:34px;border-radius:10px;background:linear-gradient(135deg,var(--teal),#74C8B8);display:grid;place-items:center;color:white;font-size:18px}.navlinks{display:flex;align-items:center;gap:24px;font-size:14px;color:#526474}.navlinks a:hover{color:var(--teal)}.nav-cta,.btn{display:inline-flex;align-items:center;justify-content:center;border:0;border-radius:999px;padding:12px 22px;font-weight:750;cursor:pointer;transition:.2s}.nav-cta,.btn-primary{background:var(--orange);color:#172B3A;box-shadow:0 8px 20px rgba(244,162,97,.24)}.btn:hover,.nav-cta:hover{transform:translateY(-2px);filter:brightness(1.02)}.btn-secondary{background:#fff;color:var(--navy);border:1px solid #D7E2E9}.hero{background:radial-gradient(circle at 80% 20%,rgba(42,157,143,.22),transparent 27%),linear-gradient(135deg,#102A43 0%,#16324F 58%,#1D4961 100%);color:white;overflow:hidden;position:relative}.hero:after{content:"";position:absolute;width:420px;height:420px;border:1px solid rgba(255,255,255,.12);border-radius:50%;right:-120px;bottom:-250px;box-shadow:0 0 0 45px rgba(255,255,255,.025),0 0 0 90px rgba(255,255,255,.02)}.hero-inner{min-height:540px;display:grid;grid-template-columns:1.15fr .85fr;align-items:center;gap:40px;padding:74px 0;position:relative;z-index:1}.eyebrow{display:inline-flex;gap:8px;align-items:center;color:#A8E2D8;font-size:13px;font-weight:750;letter-spacing:1.2px;text-transform:uppercase}.eyebrow:before{content:"";width:22px;height:2px;background:var(--orange)}h1{font-size:clamp(38px,5vw,62px);line-height:1.15;letter-spacing:-1.8px;margin:20px 0}.hero p{color:#D4E2EA;font-size:17px;max-width:570px;margin:0 0 28px}.hero-actions{display:flex;gap:12px;flex-wrap:wrap}.hero .btn-secondary{background:rgba(255,255,255,.1);border-color:rgba(255,255,255,.3);color:white}.hero-meta{display:flex;gap:22px;flex-wrap:wrap;margin-top:30px;color:#C5D5DE;font-size:13px}.hero-meta span{display:flex;gap:7px;align-items:center}.hero-art{min-height:340px;display:grid;place-items:center;position:relative}.orbit{width:min(330px,80vw);aspect-ratio:1;border-radius:50%;border:1px solid rgba(255,255,255,.18);display:grid;place-items:center;position:relative;background:radial-gradient(circle,rgba(42,157,143,.16),transparent 66%)}.orbit:before,.orbit:after{content:"";position:absolute;border:1px solid rgba(255,255,255,.13);border-radius:50%}.orbit:before{inset:28px}.orbit:after{inset:62px}.orbit-core{width:142px;height:142px;border-radius:32px;transform:rotate(-8deg);background:linear-gradient(145deg,#2A9D8F,#176B70);box-shadow:0 25px 60px rgba(0,0,0,.22);display:grid;place-items:center;font-size:52px}.float-card{position:absolute;background:white;color:var(--navy);padding:13px 16px;border-radius:14px;box-shadow:var(--shadow);font-size:13px;font-weight:750}.float-card strong{display:block;font-size:22px}.fc1{top:35px;right:-8px}.fc2{bottom:35px;left:-5px}.section{padding:82px 0}.section-soft{background:var(--paper)}.section-head{text-align:center;max-width:650px;margin:0 auto 42px}.kicker{font-size:12px;font-weight:800;letter-spacing:1.8px;color:var(--teal)}h2{font-size:clamp(28px,3.4vw,40px);line-height:1.25;color:var(--navy);margin:10px 0 12px;letter-spacing:-.7px}.section-head p{color:var(--muted);margin:0}.benefit-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.benefit{padding:26px;border:1px solid var(--line);border-radius:18px;background:white}.benefit-icon{width:46px;height:46px;border-radius:14px;background:#E8F5F2;color:var(--teal);display:grid;place-items:center;font-size:22px;margin-bottom:18px}.benefit h3{margin:0 0 8px;color:var(--navy);font-size:18px}.benefit p{margin:0;color:var(--muted);font-size:14px}.facts{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:34px}.fact{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;text-align:center}.fact strong{display:block;color:var(--navy);font-size:30px;line-height:1.2}.fact span{color:var(--muted);font-size:13px}.prize-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;align-items:stretch}.prize{padding:28px 24px;border-radius:20px;background:#fff;border:1px solid var(--line);position:relative;overflow:hidden}.prize.featured{background:var(--navy);color:white;transform:translateY(-8px);border-color:var(--navy);box-shadow:var(--shadow)}.prize-tag{font-size:12px;font-weight:800;color:var(--teal);letter-spacing:1px}.featured .prize-tag{color:#9CE0D4}.prize h3{font-size:18px;margin:12px 0 5px}.amount{font-size:34px;font-weight:850;letter-spacing:-1px;color:var(--navy);margin:8px 0}.featured .amount{color:#fff}.prize p{margin:0;color:var(--muted);font-size:14px}.featured p{color:#D1DEE7}.certificate{margin-top:18px;padding:20px 24px;border-radius:16px;background:#EAF5F3;display:flex;align-items:center;justify-content:space-between;gap:16px}.certificate strong{color:var(--navy)}.certificate span{color:#58716F;font-size:14px}.timeline{max-width:760px;margin:auto;display:grid;grid-template-columns:1fr 1fr;gap:18px}.time-card{padding:24px;border:1px solid var(--line);border-radius:18px;background:#fff;display:flex;gap:16px;align-items:flex-start}.time-dot{width:42px;height:42px;flex:0 0 42px;border-radius:13px;background:#E8F5F2;color:var(--teal);display:grid;place-items:center;font-weight:900}.time-card small{color:var(--teal);font-weight:800}.time-card h3{margin:3px 0;color:var(--navy)}.time-card p{margin:0;color:var(--muted);font-size:14px}.faq{max-width:820px;margin:auto}.faq-item{border-bottom:1px solid var(--line)}.faq-q{width:100%;padding:20px 2px;background:none;border:0;display:flex;justify-content:space-between;align-items:center;text-align:left;color:var(--navy);font-weight:750;cursor:pointer;gap:18px}.faq-q span:last-child{font-size:22px;color:var(--teal);transition:transform .2s}.faq-a{display:none;padding:0 34px 20px 2px;color:var(--muted);font-size:14px}.faq-item.open .faq-a{display:block}.faq-item.open .faq-q span:last-child{transform:rotate(45deg)}.signup{background:linear-gradient(135deg,#102A43,#16324F);color:white}.signup h2{color:white}.signup .section-head p{color:#C7D8E1}.form-shell{max-width:760px;margin:auto;background:#fff;color:var(--ink);border-radius:22px;padding:32px;box-shadow:0 24px 70px rgba(0,0,0,.2)}.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}.field{display:flex;flex-direction:column;gap:7px}.field.full{grid-column:1/-1}.field label{font-size:14px;font-weight:750;color:var(--navy)}.field input{width:100%;padding:13px 14px;border:1px solid #D7E2E9;border-radius:10px;outline:none;background:#FBFCFD}.field input:focus{border-color:var(--teal);box-shadow:0 0 0 3px rgba(42,157,143,.12)}.hint{font-size:12px;color:var(--muted)}.consent{display:flex;align-items:flex-start;gap:10px;font-size:13px;color:#536575}.consent input{margin-top:5px;accent-color:var(--teal)}.consent a{color:var(--teal);text-decoration:underline}.form-submit{width:100%;margin-top:20px}.form-message{display:none;margin-top:16px;padding:13px 15px;border-radius:10px;font-size:14px}.form-message.error{display:block;background:#FFF1ED;color:#9D3C26}.form-message.success{display:block;background:#EAF7F2;color:#176B52}.privacy-note{font-size:12px;color:#6D7E8A;text-align:center;margin:14px 0 0}.footer{background:#0D2235;color:#C4D2DB;padding:30px 0;font-size:13px}.footer-inner{display:flex;justify-content:space-between;gap:18px;align-items:center}.footer strong{color:white}.modal-backdrop{display:none;position:fixed;inset:0;background:rgba(7,24,39,.65);z-index:50;padding:20px;align-items:center;justify-content:center}.modal-backdrop.show{display:flex}.modal{background:#fff;color:var(--ink);width:min(560px,100%);max-height:85vh;overflow:auto;border-radius:18px;padding:28px;position:relative}.modal h3{color:var(--navy);margin-top:0}.modal p,.modal li{font-size:14px;color:#586A78}.modal-close{position:absolute;right:16px;top:12px;border:0;background:#EEF3F6;border-radius:50%;width:34px;height:34px;font-size:20px;cursor:pointer}.mobile-cta{display:none}
+@media(max-width:760px){.wrap{width:min(100% - 32px,560px)}.nav{height:62px}.navlinks{display:none}.nav-cta{padding:10px 16px;font-size:13px}.hero-inner{grid-template-columns:1fr;gap:18px;padding:58px 0 48px;min-height:auto}.hero h1{font-size:42px}.hero p{font-size:15px}.hero-art{min-height:260px}.orbit{width:240px}.orbit-core{width:112px;height:112px;font-size:42px;border-radius:26px}.float-card{padding:10px 12px}.fc1{right:0;top:12px}.fc2{left:0;bottom:10px}.section{padding:62px 0}.benefit-grid,.prize-grid{grid-template-columns:1fr}.benefit{padding:22px}.facts{grid-template-columns:repeat(2,1fr)}.fact{padding:17px 10px}.fact strong{font-size:26px}.prize.featured{transform:none}.certificate{align-items:flex-start;flex-direction:column}.timeline{grid-template-columns:1fr}.form-shell{padding:22px 18px}.form-grid{grid-template-columns:1fr}.field.full{grid-column:auto}.footer-inner{flex-direction:column;align-items:flex-start}.mobile-cta{display:block;position:fixed;bottom:12px;left:16px;right:16px;z-index:19}.mobile-cta a{width:100%;box-shadow:0 10px 28px rgba(22,50,79,.28)}body{padding-bottom:68px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
+</style>
+</head>
+<body>
+<header class="nav">
+  <div class="wrap" style="display:flex;align-items:center;justify-content:space-between;width:100%">
+    <a class="brand" href="#top" aria-label="THS Futures Lab 首页"><span class="brand-mark">T</span><span>THS Futures Lab</span></a>
+    <nav class="navlinks" aria-label="主导航"><a href="#about">活动介绍</a><a href="#prizes">活动奖品</a><a href="#schedule">活动安排</a><a href="#faq">常见问题</a></nav>
+    <a class="nav-cta" href="#signup">立即报名 <span aria-hidden="true">↗</span></a>
+  </div>
+</header>
+
+<main id="top">
+<section class="hero">
+ <div class="wrap hero-inner">
+  <div>
+   <div class="eyebrow">THS FUTURES LAB · CAMPUS CHALLENGE</div>
+   <h1>投资知识，<br><span style="color:#8ED8CB">从一次挑战</span>开始。</h1>
+   <p>2026 大学生投资知识挑战赛正式开启。用约 8 分钟完成 20 道线上题目，了解基础投资常识，建立理性风险意识。</p>
+   <div class="hero-actions"><a class="btn btn-primary" href="#signup">立即报名 <span aria-hidden="true">→</span></a><button class="btn btn-secondary" type="button" data-open-rules>查看活动规则</button></div>
+   <div class="hero-meta"><span>◷ 报名：09.15 — 09.28</span><span>◎ 在校大学生，不限专业</span><span>✓ 不涉及真实资金交易</span></div>
+  </div>
+  <div class="hero-art" aria-label="投资知识挑战主题图形">
+   <div class="orbit"><div class="orbit-core">↗</div><div class="float-card fc1"><strong>20 题</strong>线上知识挑战</div><div class="float-card fc2"><strong>约 8 分钟</strong>轻量参与</div></div>
+  </div>
+ </div>
+</section>
+
+<section class="section" id="about">
+ <div class="wrap">
+  <div class="section-head"><div class="kicker">WHY JOIN</div><h2>一次轻量挑战，收获更多投资认知</h2><p>不需要专业背景，也不需要交易经验。从基础知识出发，认识投资、理解风险。</p></div>
+  <div class="benefit-grid">
+   <article class="benefit"><div class="benefit-icon">◈</div><h3>零基础也能参与</h3><p>面向所有在校大学生，不限专业。题目聚焦基础投资常识与风险意识。</p></article>
+   <article class="benefit"><div class="benefit-icon">◷</div><h3>时间灵活，轻松完成</h3><p>线上答题共 20 题，预计约 8 分钟即可完成，不需要复杂计算或专业操作。</p></article>
+   <article class="benefit"><div class="benefit-icon">✦</div><h3>学习成果有记录</h3><p>有机会获得学习基金奖励；所有完赛者均可获得电子能力证书。</p></article>
+  </div>
+  <div class="facts">
+   <div class="fact"><strong>20</strong><span>道线上题目</span></div><div class="fact"><strong>8 分钟</strong><span>预计答题时长</span></div><div class="fact"><strong>0 元</strong><span>无需真实资金参与</span></div><div class="fact"><strong>不限</strong><span>专业背景</span></div>
+  </div>
+ </div>
+</section>
+
+<section class="section section-soft" id="prizes">
+ <div class="wrap">
+  <div class="section-head"><div class="kicker">AWARDS</div><h2>认真参与，让学习成果被看见</h2><p>根据活动评选规则设置对应奖项。奖品为学习基金，不代表人人均可获得现金奖励。</p></div>
+  <div class="prize-grid">
+   <article class="prize"><div class="prize-tag">THIRD PRIZE</div><h3>三等奖</h3><div class="amount">¥300</div><p>学习基金 · 20 名</p></article>
+   <article class="prize featured"><div class="prize-tag">GRAND PRIZE</div><h3>一等奖</h3><div class="amount">¥3,000</div><p>学习基金 · 1 名</p></article>
+   <article class="prize"><div class="prize-tag">SECOND PRIZE</div><h3>二等奖</h3><div class="amount">¥1,000</div><p>学习基金 · 5 名</p></article>
+  </div>
+  <div class="certificate"><div><strong>🎓 完赛纪念 · 电子能力证书</strong><br><span>所有完赛者均可获得电子能力证书。</span></div><span>LEARNING RECORD</span></div>
+ </div>
+</section>
+
+<section class="section" id="schedule">
+ <div class="wrap">
+  <div class="section-head"><div class="kicker">KEY DATES</div><h2>重要时间，一目了然</h2><p>提前安排时间，按时完成报名与挑战。</p></div>
+  <div class="timeline">
+   <article class="time-card"><div class="time-dot">01</div><div><small>报名阶段</small><h3>09 月 15 日 — 09 月 28 日</h3><p>在报名期内填写基本信息并确认活动规则。</p></div></article>
+   <article class="time-card"><div class="time-dot">02</div><div><small>正式挑战</small><h3>10 月 10 日</h3><p>线上完成 20 道题目，预计用时约 8 分钟。</p></div></article>
+  </div>
+ </div>
+</section>
+
+<section class="section section-soft" id="faq">
+ <div class="wrap">
+  <div class="section-head"><div class="kicker">FAQ</div><h2>你可能还想了解</h2><p>报名之前，先看看大家关心的问题。</p></div>
+  <div class="faq">
+   <div class="faq-item"><button class="faq-q" aria-expanded="false"><span>我没有投资经验，大体会不会比较吃力？</span><span>＋</span></button><div class="faq-a">不会。题目主要考察基础投资常识和风险意识，不涉及复杂计算和专业操作。即使没有投资经验，也能凭常识作答，答题前还会有相关知识提示，非常适合零基础的同学参与。</div></div>
+   <div class="faq-item"><button class="faq-q" aria-expanded="false"><span>我需要投入真实资金或进行真实交易吗？</span><span>＋</span></button><div class="faq-a">不需要。本次活动为线上知识挑战，不涉及真实资金投入，也不要求进行任何真实交易。请放心以学习和知识挑战为目的参与。</div></div>
+   <div class="faq-item"><button class="faq-q" aria-expanded="false"><span>我不是金融专业的学生，可以报名吗？</span><span>＋</span></button><div class="faq-a">可以。活动面向在校大学生，不限专业。无论你来自金融、计算机、数学还是其他专业，都欢迎报名参加。</div></div>
+   <div class="faq-item"><button class="faq-q" aria-expanded="false"><span>答错题目会扣分吗？</span><span>＋</span></button><div class="faq-a">不会。答错不扣分，鼓励大家在轻松的氛围中了解投资基础知识、提升风险意识。</div></div>
+   <div class="faq-item"><button class="faq-q" aria-expanded="false"><span>完成挑战后可以获得什么？</span><span>＋</span></button><div class="faq-a">所有完赛者均可获得电子能力证书。此外，活动设置一等奖 3,000 元学习基金（1 名）、二等奖 1,000 元学习基金（5 名）、三等奖 300 元学习基金（20 名）。学习基金奖项按对应评选结果发放，并非所有参与者均可获得现金或学习基金。</div></div>
+   <div class="faq-item"><button class="faq-q" aria-expanded="false"><span>报名需要提供哪些信息？</span><span>＋</span></button><div class="faq-a">报名原型仅设置姓名、学校、手机号及活动规则确认，用于演示报名流程。不需要提供身份证号、银行卡号等无关敏感信息。</div></div>
+  </div>
+ </div>
+</section>
+
+<section class="section signup" id="signup">
+ <div class="wrap">
+  <div class="section-head"><div class="kicker">JOIN THE CHALLENGE</div><h2>准备好迎接挑战了吗？</h2><p>填写以下基本信息，体验活动报名流程。</p></div>
+  <div class="form-shell">
+   <form id="registrationForm" novalidate>
+    <div class="form-grid">
+     <div class="field"><label for="name">姓名 *</label><input id="name" name="name" autocomplete="name" placeholder="请输入姓名" required maxlength="30"></div>
+     <div class="field"><label for="school">学校 *</label><input id="school" name="school" autocomplete="organization" placeholder="请输入学校名称" required maxlength="80"></div>
+     <div class="field full"><label for="phone">手机号 *</label><input id="phone" name="phone" type="tel" inputmode="tel" autocomplete="tel" placeholder="请输入手机号" required maxlength="20"><span class="hint">仅用于演示表单校验，请勿填写他人真实联系方式。</span></div>
+     <div class="field full"><label class="consent"><input id="agree" type="checkbox" required><span>我已阅读并同意<a href="#" id="inlineRules">《活动规则》</a>，确认所填信息仅用于本次报名原型演示。</span></label></div>
+    </div>
+    <button class="btn btn-primary form-submit" type="submit">提交报名信息 →</button>
+    <div id="formMessage" class="form-message" role="status" aria-live="polite"></div>
+    <p class="privacy-note">原型演示：提交仅触发前端校验与成功反馈，不会将报名信息发送或保存至服务器。</p>
+   </form>
+  </div>
+ </div>
+</section>
+</main>
+
+<footer class="footer"><div class="wrap footer-inner"><div><strong>THS Futures Lab</strong><br>2026 大学生投资知识挑战赛</div><div>理性认识投资 · 建立风险意识<br>本页面为活动报名交互原型。</div></div></footer>
+<div class="mobile-cta"><a class="btn btn-primary" href="#signup">立即报名 →</a></div>
+
+<div class="modal-backdrop" id="rulesModal" role="dialog" aria-modal="true" aria-labelledby="rulesTitle">
+ <div class="modal"><button class="modal-close" type="button" aria-label="关闭">×</button><h3 id="rulesTitle">活动规则</h3>
+  <ol>
+   <li>活动名称：2026 大学生投资知识挑战赛。</li>
+   <li>参与对象：在校大学生，不限专业。</li>
+   <li>报名时间：09 月 15 日至 09 月 28 日；正式挑战时间：10 月 10 日。</li>
+   <li>挑战形式：线上答题，共 20 题，预计约 8 分钟。</li>
+   <li>答错不扣分；活动不涉及真实资金投入或真实交易。</li>
+   <li>奖项设置：一等奖 3,000 元学习基金（1 名）；二等奖 1,000 元学习基金（5 名）；三等奖 300 元学习基金（20 名）。所有完赛者可获得电子能力证书。学习基金按对应奖项评选结果发放，并非人人获得现金。</li>
+   <li>报名原型仅包含姓名、学校、手机号和规则确认，不收集身份证、银行卡等无关敏感信息。</li>
+  </ol>
+  <p>本页面为前端交互原型，不连接报名后台。提交表单仅展示校验及反馈，不会真实接收或保存报名信息。</p>
+  <button class="btn btn-primary" type="button" id="closeRulesBottom">我已了解</button>
+ </div>
+</div>
+
+<script>
+const modal=document.getElementById('rulesModal');
+function openRules(){modal.classList.add('show');document.body.style.overflow='hidden';}
+function closeRules(){modal.classList.remove('show');document.body.style.overflow='';}
+document.querySelectorAll('[data-open-rules],#inlineRules').forEach(el=>el.addEventListener('click',e=>{e.preventDefault();openRules();}));
+document.querySelector('.modal-close').addEventListener('click',closeRules);
+document.getElementById('closeRulesBottom').addEventListener('click',closeRules);
+modal.addEventListener('click',e=>{if(e.target===modal)closeRules();});
+document.addEventListener('keydown',e=>{if(e.key==='Escape')closeRules();});
+
+document.querySelectorAll('.faq-q').forEach(btn=>btn.addEventListener('click',()=>{
+ const item=btn.closest('.faq-item');const wasOpen=item.classList.contains('open');
+ document.querySelectorAll('.faq-item').forEach(other=>{other.classList.remove('open');other.querySelector('.faq-q').setAttribute('aria-expanded','false');});
+ if(!wasOpen){item.classList.add('open');btn.setAttribute('aria-expanded','true');}
+}));
+
+const form=document.getElementById('registrationForm');
+const message=document.getElementById('formMessage');
+form.addEventListener('submit',e=>{
+ e.preventDefault();
+ message.className='form-message';message.textContent='';
+ const name=document.getElementById('name').value.trim();
+ const school=document.getElementById('school').value.trim();
+ const phone=document.getElementById('phone').value.trim();
+ const agree=document.getElementById('agree').checked;
+ if(!name||!school||!phone){message.textContent='请先完整填写姓名、学校和手机号。';message.classList.add('error');return;}
+ if(!/^[0-9+()\-\s]{7,20}$/.test(phone)){message.textContent='手机号格式似乎不正确，请检查后再试。';message.classList.add('error');return;}
+ if(!agree){message.textContent='请先阅读并同意活动规则，再提交报名信息。';message.classList.add('error');return;}
+ message.textContent='提交成功！你已完成本次报名流程演示。当前为前端原型，信息不会发送或保存至服务器。';
+ message.classList.add('success');
+});
+</script>
+</body>
+</html>
